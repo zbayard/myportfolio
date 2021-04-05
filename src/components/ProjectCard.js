@@ -1,6 +1,9 @@
-function ProjectCard(){
+function ProjectCard({project}){
     return(
-        <h1>ProjectCard</h1>
+        <div>
+            <h1>{project.name}</h1>
+            <img className='project-cards' src={project.image} alt={project.name}></img>
+        </div>
     );
 }
 

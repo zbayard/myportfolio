@@ -2,9 +2,9 @@ import {Grid} from '@material-ui/core'
 
 function TechCard({techCard}){
     return(
-        <div className='tech-card'>
+        <div>
             <Grid>
-                <img src={techCard.logo} alt={techCard.name}></img>
+                <img className='tech-card' src={techCard.logo} alt={techCard.name}></img>
             </Grid>
 
         </div>

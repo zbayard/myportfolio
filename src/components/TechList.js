@@ -45,7 +45,7 @@ function TechList(){
 
     return(
         <div>
-            <h1>TechList</h1>
+            <h1>Technologies I Work With</h1>
             <Grid container spacing={3}>
                 {cardsToDisplay}
 
