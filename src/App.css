@@ -6,7 +6,9 @@ body{
   background-color: #282c34;
 }
 
-.tech-card{
+
+
+#tech-card{
   height: 100px;
   width: 100px;
 }

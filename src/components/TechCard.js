@@ -1,14 +1,14 @@
-import {Grid} from '@material-ui/core'
+import {Card} from 'semantic-ui-react'
 
 function TechCard({techCard}){
     return(
-        <div>
-            <Grid>
-                <img className='tech-card' src={techCard.logo} alt={techCard.name}></img>
-            </Grid>
+       
+            <Card id='tech-card' raised image={techCard.logo}/>
 
-        </div>
+        
     );
 }
 
 export default TechCard;
+
+{/* <img className='tech-card' src={techCard.logo} alt={techCard.name}></img> */}

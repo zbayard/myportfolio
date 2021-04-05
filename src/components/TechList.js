@@ -1,4 +1,3 @@
-import {Grid} from '@material-ui/core'
 import TechCard from './TechCard.js';
 import react from '../assets/react.svg';
 import javascript from '../assets/javascript.svg';
@@ -15,6 +14,7 @@ import netlify from '../assets/netlify.svg';
 import github from '../assets/github-icon.svg';
 import semantic from '../assets/semantic-ui.svg';
 import material from '../assets/material-ui.svg';
+import {Card} from 'semantic-ui-react'
 
 function TechList(){
 
@@ -46,10 +46,9 @@ function TechList(){
     return(
         <div>
             <h1>Technologies I Work With</h1>
-            <Grid container spacing={3}>
+            <Card.Group itemsPerRow={5}>
                 {cardsToDisplay}
-
-            </Grid>
+            </Card.Group>
 
         </div>
     );
